@@ -24,6 +24,36 @@ Program ini menggunakan beberapa konsep dasar pemrograman:
 - Perulangan (for) untuk menampilkan data mahasiswa
 ### 📖 Penjelasan Program
 #### 1. Membuat array nama
+ ```
+ String[] nama = {"Joy", "Fivah", "Dimas"};
 ```
-String[] nama = {"Joy", "Fivah", "Dimas"};
-``` 
+Baris ini membuat array bernama nama yang berisi 3 data bertipe String yaitu nama mahasiswa. Isi array:
+- indeks 0 → Fivah
+- indeks 1 → Joy
+- indeks 2 → Dimas
+#### 2. Membuat array NIM
+ ```
+ String[] nim = {"312510472", "312510251", "312510242"};
+```
+Baris ini membuat array untuk menyimpan NIM mahasiswa. Setiap NIM sesuai dengan nama mahasiswa pada indeks yang sama. Contoh:
+- Fivah → 312510472
+- Joy → 312510251
+- Dimas → 312510242
+#### 3. Membuat array nilai
+ ```
+int[] nilai = {92, 90, 95};
+```
+Baris ini membuat array bertipe integer untuk menyimpan nilai mahasiswa. Isi array:
+- Fivah → 92
+- Joy → 90
+- Dimas → 95
+#### 4. Perulangan for
+ ```
+for(int i = 0; i < nama.length; i++){
+```
+Baris ini adalah perulangan (looping) untuk membaca semua data dalam array. Penjelasan:
+- int i = 0 → perulangan dimulai dari indeks 0
+- i < nama.length → berhenti ketika semua data array sudah dibaca
+- i++ → nilai i bertambah 1 setiap perulangan
+### 🎯 Output
+<img width="339" height="284" alt="Screenshot 2026-03-10 095215" src="https://github.com/user-attachments/assets/b06b992b-fa49-468d-b808-6ad13d9914a5" />
